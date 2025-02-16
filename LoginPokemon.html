@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="log.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <!-- login -->
+  <body class="container">
+    <div class="login-container">
+      <div class="bar-login">
+        <i class=""></i>
+        <h1 class="title">Login</h1>
+      </div>
+      <!-- login end -->
+
+      <p class="subtitle">Yuk login dulu Guys.</p>
+
+      <form>
+        <!-- input nama -->
+        <div class="input-group">
+          <input
+            type="text"
+            placeholder="Nama Pokemon / Email"
+            class="input-field"
+          />
+        </div>
+        <!-- input nama end -->
+
+        <!-- input password -->
+        <div class="input-group">
+          <input type="password" placeholder="Password" class="input-field" />
+        </div>
+        <!-- input password end -->
+
+        <div class="input-group">
+          <a href="#" class="forgot-password">Lupa Password?</a>
+        </div>
+
+        <!-- button login -->
+        <div class="input-group">
+          <button
+            type="button"
+            class="btn"
+            onclick="window.open('indext.html', '_blank')"
+          >
+            Login
+          </button>
+        </div>
+        <!-- button login end -->
+      </form>
+
+      <!-- yet -->
+      <div class="input-group">
+        <p class="subtitle">
+          Belum punya akun? <a href="#" class="register-link">Daftar.</a>
+        </p>
+      </div>
+      <!-- yet end -->
+
+      <div class="input-group">
+        <hr class="line" />
+        <span class="text-gray">Atau</span>
+        <hr class="line" />
+      </div>
+
+      <button class="btn-google">
+        <i class="fab fa-google mr-2"></i> Login with Google
+      </button>
+    </div>
+  </body>
+</html>
